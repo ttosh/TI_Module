@@ -1,0 +1,52 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+/* scaffolding */
+/* ----------- */
+html {
+  font-family: 'Roboto Condensed', sans-serif, "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: small;
+  color: #292f33;
+  overflow-y: scroll;
+  *overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif, "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: small;
+}
+
+a {
+  color: #03739c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.table-of-contents li {
+  display: inline-block;
+  *display: inline;
+}
+
+.table-of-contents li a {
+  font-size: 13px;
+  color: #999;
+}
+
+p + p {
+  margin: 30px 0 0 0;
+}
+
+.title {
+  margin: 20px 0 0 0;
+  font-size: 64px;
+}
+
+label {
+  font-family: 'Roboto Condensed', sans-serif, "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+}
+
+input {
+  font-family: 'Roboto Condensed', sans-serif, "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+}
